@@ -1,0 +1,25 @@
+<html>
+<head><title>Holi App</title></head>
+
+<style>
+*{font-size:50px;}
+</style>
+
+<script>
+
+function cc(){
+event.preventDefault();
+let colors=["red","yellow","orange","pink","indigo","blue"]
+let r=parseInt(Math.random()*colors.length);
+document.body.style.backgroundColor=colors[r];
+}
+</script>
+<body>
+<center>
+<h1>Holi Ahe</h1>
+<form onsubmit="cc()">
+<input type="submit" value="MOHE RANG DE"/>
+</form>
+</center>
+</body>
+</html>
